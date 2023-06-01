@@ -16,6 +16,9 @@ p {
   line-height: 1.6;
 }
 
+.subject{
+  padding: 10px;
+}
 a {
   color: rgb(29, 29, 31);
   text-decoration: none;
