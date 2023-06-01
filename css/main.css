@@ -12,6 +12,11 @@ body {
   background: white;
 }
 
+.selfie{
+  width: 350px;
+  height: 350px;
+}
+
 p {
   line-height: 1.6;
 }
