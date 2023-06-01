@@ -19,6 +19,7 @@ p {
 .subject{
   padding: 30px;
 }
+
 a {
   color: rgb(29, 29, 31);
   text-decoration: none;
@@ -85,8 +86,8 @@ section{
   font-weight: bold;
   text-align: center;
   letter-spacing: 3px;
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .about-area{
@@ -133,11 +134,6 @@ section{
   position: relative;
   min-height: calc(100%-80px);
 
-}
-
-.footer{
-  height: 30px;
-  text-align: center;
 }
 
 .title p{
