@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>AirMug Pro</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    
+    <script src="https://kit.fontawesome.com/cbcad42a26.js" crossorigin="anonymous"></script>
+    <script>
+      function main_section(){
+        document.getElementById('main').style.display="block";
+        document.getElementById('about').style.display="none";
+        document.getElementById('study').style.display = "none";
+        document.getElementById('project').style.display="none";
+      }
+      function about_section(){
+        document.getElementById('main').style.display="none";
+        document.getElementById('about').style.display="block";
+        document.getElementById('study').style.display = "none";
+        document.getElementById('project').style.display="none";
+      }
+      function study_section(){
+        document.getElementById('main').style.display="none";
+        document.getElementById('about').style.display="none";
+        document.getElementById('study').style.display = "block";
+        document.getElementById('project').style.display="none";
+      }
+      function project_section(){
+        document.getElementById('main').style.display="none";
+        document.getElementById('about').style.display="none";
+        document.getElementById('study').style.display = "none";
+        document.getElementById('project').style.display="block";
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="local-nav">
+        <div class="local-nav-links">
+          <a href="javascript:main_section()" class="product-name">YOO JIIN</a>
+          <a href="javascript:about_section()">About</a>
+          <a href="javascript:study_section()">Study</a>
+          <a href="javascript:project_section()">Project</a>
+        </div>
+      </nav>
+
+      <section class="main-area" id="main" >
+        <div class="title">
+          안녕하세요!
+          <br>
+          Hello!
+          <br>
+          こんにちは!
+          <br>
+          Hola!
+          <br>
+          您好!
+          <br>
+          Bonjour!
+          <br>
+          Geten Tag!
+          <br>
+          xin chào!
+          <br>
+          नमस्ते!
+
+
+        </div>
+      </section>
+
+      <section class="about-area" id="about" style="display: none;">
+        <div class="title">
+          유지인이라는 사람에 대해
+        </div>
+        <div class="picture">
+          <img src="./profile.jpg">
+          <div class="name">유지인</div>
+          <div class="description">컴퓨터공학과 3학년</div>
+        </div>
+        <div class="text">
+          <div class="intro">
+            <p>
+              안녕하세요. 강원대학교 컴퓨터공학과 3학년에 재학 중인 유지인입니다. 
+              <br>
+              현재 node.js를 공부하고 있으며 소규모 프로젝트 위주의 개발을 주로 합니다. 
+             <br>
+              궁금하신 점이 있으시다면 언제든지 편하게 연락주세요.
+            </p>
+          </div>
+          <ul>
+            <li>
+              <div class="info">
+                <i class="fa fa-calendar" style="color: black;"> 2002-03-28</i>
+              </div>
+            </li>
+            <li>
+              <div class="info">
+                <i class="fa fa-phone" style="color: #1d1d1e;"> 010-7607-7869</i>
+              </div>
+            </li>
+            <li>
+              <div class="info">
+                <i class="fa fa-envelope" style="color: #000000;"> yoojiin0328@kangwon.ac.kr</i>
+              </div>
+            </li>
+          </ul>
+          <div class="sns">
+            <a href="https://www.instagram.com/niiroov/">
+              <img src="./insta.png" id="insta">
+            </a>
+            <a href="https://velog.io/@yoojiin0328">
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="study-area" id="study" style="display: none;">
+        <div class="title">
+          2021
+          <p class="subject">파이썬 프로그래밍, 미분적분학및컴퓨터실습1, 프로그래밍 기초, 컴퓨터개론,
+            객체지향프로그래밍, C프로그래밍
+          </p>
+        </div>
+        <div class="title">
+          2022
+          <p class="subject">자료구조, 리눅스프로그래밍, 논리회로, 이산수학, 알고리즘, 인공지능, 데이터베이스, 마이크로프로세서, 모바일프로그래밍</p>
+        </div>
+        <div class="title">
+          2023
+          <p class="subject">웹프로그래밍, 데이터통신, 운영체제, 컴퓨터시스템보안, 프로그래밍언어</p>
+        </div>
+      
+      </section>
+
+      <section class="project-area" id="project" style="display: none;">
+        <div class="title">
+          그동안의 프로젝트
+          
+          <p id="small">클릭 시 해당 프로젝트의 repository로 이동합니다.</p>
+          <p><a href="https://github.com/niiryoo/nz_app">출퇴근 기록 앱</a></p>
+        </div>
+      </section>
+
+    
+      <footer class="footer">
+        Copyright @ 2023. Jiin Yoo (yoojiin0328 (at) kangwon.ac.kr) All rights reserved.
+      </footer>
+    </div>
+  </body>
+</html>
